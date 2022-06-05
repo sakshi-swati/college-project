@@ -7,7 +7,7 @@ if(isset($_GET['sponser']))
 ?>
 <!DOCTYPE html>
 <head>
-<title>Apna Hostel - Register </title>
+<title>chhatralay- Register </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="" />
