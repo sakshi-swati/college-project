@@ -35,12 +35,12 @@
           <li class="nav-item mx-2">
             
           <li class="nav-item mx-2">
-            <a class="nav-link" href="apnaHostel-hostel.php" style="color: white; font-size: 20px"
+            <a class="nav-link" href="chhatralay-hostel.php" style="color: white; font-size: 20px"
               >Find Hostel</a
             >
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="apnaHostel-mess.php" style="color: white; font-size: 20px"
+            <a class="nav-link" href="chhatralay-mess.php" style="color: white; font-size: 20px"
               >Book Mess</a
             >
           </li>
@@ -66,12 +66,12 @@
 	{
           ?>
           <li>
-		  <a class="nav-link" href="apnaHostel-registration.php" style="color: white; font-size: 20px"
+		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 20px"
               >Register
             </a>
           </li>
           <li>
-		  <a class="nav-link" href="apnaHostel-login.php" style="color:#ff0; font-size: 20px"
+		  <a class="nav-link" href="chhatralay-login.php" style="color:#ff0; font-size: 20px"
               >Login
             </a>
           </li>

@@ -24,7 +24,7 @@
     
     
     <link href="loggo.png" rel="icon" type="image/x-icon" />
-    <title>Apna Hostel : For Hostel,Meal& Hotel</title>
+    <title>chhatralay : For Hostel,Meal& Hotel</title>
   </head>
 
   <body>
@@ -51,12 +51,12 @@
           <li class="nav-item mx-2">
             
           <li class="nav-item mx-2">
-            <a class="nav-link" href="apnaHostel-hostel.php" style="color: white; font-size: 20px"
+            <a class="nav-link" href="chhatralay-hostel.php" style="color: white; font-size: 20px"
               >Find Hostel</a
             >
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="apnaHostel-mess.php" style="color: white; font-size: 20px"
+            <a class="nav-link" href="chhatralay-mess.php" style="color: white; font-size: 20px"
               >Book Mess</a
             >
           </li>
@@ -88,12 +88,12 @@
 	{
           ?>
           <li>
-		  <a class="nav-link" href="apnaHostel-registration.php" style="color: white; font-size: 20px"
+		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 20px"
               >Register
             </a>
           </li>
           <li>
-		  <a class="nav-link" href="apnaHostel-login.php" style="color:#ff0; font-size: 20px"
+		  <a class="nav-link" href="chhatralay-login.php" style="color:#ff0; font-size: 20px"
               >Login
             </a>
           </li>
@@ -118,7 +118,7 @@
               class="font-weight-dark desktop mobile_screen_banner_text"
               style="color: white"
             >
-              Welcome to <b><span style="color: rgb(0, 0, 0)">APNA HOSTEL</span></b>
+              Welcome to <b><span style="color: rgb(0, 0, 0)">CHHATRALAy</span></b>
             </div>
             <h2
               class="font-weight-dark mobile_screen_banner"
@@ -154,7 +154,7 @@
 
               <div class="text-center">
                 <a
-                  href="Apna Hostel-hostel.php"
+                  href="chhatralay-hostel.php"
                   class="btn gradient"
                   style="color: white; font-weight: bold"
                   >Book Hostel</a

@@ -2,6 +2,6 @@
 session_start();
 session_destroy();
 
-header("Location:http://www.zoyozo.in/");
+header("Location:index.php");
 
 ?>

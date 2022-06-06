@@ -38,7 +38,7 @@ if($action=="registration")
 			if($result)
 			{
 			
-			$smstext="Dear ".$name." , \nThank you for choosing ZOYOZO.\nRegards\nwww.zoyozo.in";
+			$smstext="Dear ".$name." , \nThank you for choosing us.\nRegards\nwww.chhatralay.in";
 			echo $smstext;
 			If($cid!="" and $cid!=null)
 			{

@@ -124,7 +124,7 @@ $(document).ready(function()
                              	else
                              	{
 							 ?>
-							    <a href="Apna Hostel-login.php"><button  type="button" class="btn btn-primary details-hostel" >
+							    <a href="chhatralay-login.php"><button  type="button" class="btn btn-primary details-hostel" >
                                  Order Now
                                 </button></a>
                          <?php

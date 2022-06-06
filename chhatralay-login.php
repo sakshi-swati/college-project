@@ -83,7 +83,7 @@ $("#txtId").focus();
 								<center>
 								<button type="button" id="btnMemberLogin"  class="btn btn-lg btn-primary">LOGIN NOW</button>
 								</center>
-		<p>Don't registered ?<a href="zoyozo-registration.php" style="color:#000"><br>Register</a></p>
+		<p>Don't registered ?<a href="chhatralay-registration.php" style="color:#000"><br>Register</a></p>
 		<br>
 			Note - All (*) marked fileds are required.
 		

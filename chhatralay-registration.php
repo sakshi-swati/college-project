@@ -141,7 +141,7 @@ $('#txtCid').on('click', function() {
 								<center>
 								<button type="button" id="btnRegister"  class="btn btn-lg btn-primary">Register</button>
 								</center><br>
-		<p>Allready registered ?<a href="zoyozo-login.php" style="color:#000">Login</a>
+		<p>Allready registered ?<a href="chhatralay-login.php" style="color:#000">Login</a>
 		<br><br>
 	
 		</p>
