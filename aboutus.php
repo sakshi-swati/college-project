@@ -17,26 +17,116 @@
   </head>
   <body>
   <div>
-<?php include("header.php") ?>
+    <!-- navbar  start -->
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    
+    <nav
+      class="navbar navbar-expand-lg navbar-light navbar-custom text-center fixed-top" 
+    >
+      <a class="navbar-brand" href="index.php" style="color: white"
+        ><img class="logo p-2 m-1" style="width: 150px" src="logo.jpeg"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto ul-class">
+          <li class="nav-item mx-2">
+            
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="chhatralay-hostel.php" style="color: white; font-size: 20px"
+              >Find Hostel</a
+            >
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="chhatralay-mess.php" style="color: white; font-size: 20px"
+              >Book Mess</a
+            >
+          </li>
+         
+          <?php
+
+    if(isset($_SESSION['cid']))
+	{
+		?>
+		
+		  <a class="nav-link" href="dashboard.php" style="color:#ff0; font-size: 20px"
+              ><span class="glyphicon glyphicon-user"></span>My Account
+            </a>
+          </li>
+          <li>
+		  <a class="nav-link" href="logout.php" style="color:#ff0; font-size: 20px"
+              >logout
+            </a>
+          </li>
+		<?php
+	}
+	else
+	{
+          ?>
+          <li>
+		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 20px"
+              >Register
+            </a>
+          </li>
+          <li>
+		  <a class="nav-link" href="chhatralay-login.php" style="color:#ff0; font-size: 20px"
+              >Login
+            </a>
+          </li>
+         <?php
+	}
+	?>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+
+
+
 </div>
     <div class="container-fluid mt-3 p-5 bg-light">
       <div class="row">
         <div class="col-md-6 col-12">
+        <!-- src="relax.svg" -->
           <img
-            src="relax.svg"
-            style="height: 100%; width: 100%; object-fit: contain"
-          />
+            src="about us/about.jpg"
+            style="height: 80%; width: 100%;  margin-top: 50px;" alt="hostel"
+            />
         </div>
         <div class="col-md-6 col-12 mt-5">
-          <h2><b>Why we called  <span style="color: #2f4f4f;">NO HOMESICKNESS</span></b></h2>
+          <h2><b>Why   <span style="color: #2f4f4f;">WE?</span></b></h2>
           <div class="mt-4">
             <p style="font-size: large">
-             Zoyozo is a platform where we provide hostel,  mess and much more. We thought this idea because we are also a former students and  we know how much it play a role in a life of student to get a good hostel and mess when he or she moves to different cities.
- 
-
+             CHHATRALAY is a platform where we provide hostel, mess and much more facilities. </p>
+             <p>It is a collaboration with various hostels. you can book your hostel rooms by just few clicks.
+              you can even quickly check reviews,images and amenities of all hostels and compare hostels available 
+              as per your preferences.
             </p>
-			<p style="font-size: large">
-              We know that student comes from different places with  thinking in mind to achieve something in their life and we just want to play a role in that thinking by minimizing the effort for finding good hostel and mess because it will kill lots of time daily in student life if he or she doesn’t get a desired hostel or mess. <b>Our property will give you a feeling of home but just in different city. So come and enjoy the life of zoyozo</b>.
+			      <p style="font-size: large">
+              To avoid the last minute hostel search in an unknown city with higher prices, this is the best site that offers hostels at
+              reasonable prices with great discounts.
               
             </p>
             
@@ -61,14 +151,14 @@
 
             <p style="font-size: large">
               In a recent study it was concluded that we become connected for reason of commitment rather than compliance meaning that people are bonded to each other as a result shared values, traditions, ideas, and interests.
-<b>All our properties are built in such a way that you will feel connected like your home .</b> We know that our users work very hard so at the end of the day they  will need such place where they  can relaxed and feel comfortable.
+            <b>All our properties are built in such a way that you will feel connected like your home .</b> We know that our users work very hard so at the end of the day they  will need such place where they  can relaxed and feel comfortable.
               
             </p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid  p-5 bg-light">
+    </div> -->
+    <!-- <div class="container-fluid  p-5 bg-light">
       <div class="row">
         <div class="col-md-6 col-12">
           <img
@@ -81,7 +171,7 @@
           <div class="mt-4">
             <p style="font-size: large">
               Zoyozo is started with a thinking in mind that <b>we will provide home like stay to a user in just a different city</b>. 
-Zoyozo is that  kind technology startup that connects accommodation seekers and suppliers on one platform, exclusion of the middle-man. 
+              Zoyozo is that  kind technology startup that connects accommodation seekers and suppliers on one platform, exclusion of the middle-man. 
 
             </p>
             <p style="font-size: large">
@@ -91,7 +181,7 @@ Zoyozo is that  kind technology startup that connects accommodation seekers and 
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
    
 

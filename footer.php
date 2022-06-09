@@ -55,8 +55,8 @@
             ></a>
           </div>
           <div class="col-12 text-center"> 
-		<p>© 2019 Apna Hostel. All rights reserved | Powered by <b>"Apna Hostel Hospitality and Marketing"</b>
-        <a href="https://www.apnahostel.in/"><b>(Apna Hostel)</b></a>
+		<p>© 2022 Chhatralay. All rights reserved | Powered by <b>"Chhatralay Hospitality and Marketing"</b>
+        <a href="https://www.apnahostel.in/"><b>(Chhatralay)</b></a>
         </p>
 	     </div>
         </div>
