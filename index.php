@@ -31,9 +31,9 @@
     <nav
       class="navbar navbar-expand-lg navbar-light navbar-custom text-center fixed-top"
     >
-      <a class="navbar-brand" href="index.php" style="color: white"
-        ><img class="logo p-2 m-1" style="width: 150px" src="logo.jpeg"
-      /></a>
+      <a class="navbar-brand" href="index.php" style="color: white">
+      <img class="logo p-2 m-1" style="width: 150px" src="logo.jpeg"/>
+      </a>
       <button
         class="navbar-toggler"
         type="button"
