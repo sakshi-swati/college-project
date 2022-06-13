@@ -34,9 +34,8 @@
     <nav
       class="navbar navbar-expand-lg navbar-light navbar-custom text-center fixed-top" 
     >
-      <a class="navbar-brand" href="index.php" style="color: white"
-        ><img class="logo p-2 m-1" style="width: 150px" src="logo.jpeg"
-      /></a>
+      <a class="navbar-brand" href="index.php" style="color: white; font-size:35px; font-weight:650"
+        >Chhatralay</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -55,8 +54,11 @@
             
           <li class="nav-item mx-2">
             <a class="nav-link" href="chhatralay-hostel.php" style="color: white; font-size: 20px"
-              >Find Hostel</a
-            >
+              >Find Hostel</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="index.php" style="color: white; font-size: 20px"
+              >Home</a>
           </li>
           <li class="nav-item mx-2">
             <a class="nav-link" href="chhatralay-mess.php" style="color: white; font-size: 20px"
@@ -85,7 +87,7 @@
 	{
           ?>
           <li>
-		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 20px"
+		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 20px;"
               >Register
             </a>
           </li>
@@ -95,8 +97,8 @@
             </a>
           </li>
          <?php
-	}
-	?>
+	 }
+	 ?>
         </ul>
       </div>
     </nav>
@@ -105,7 +107,7 @@
 
 
 
-</div>
+  </div>
     <div class="container-fluid mt-3 p-5 bg-light">
       <div class="row">
         <div class="col-md-6 col-12">

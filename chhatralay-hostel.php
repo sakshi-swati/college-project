@@ -193,20 +193,24 @@ $('#OtxtCoupon').on('input', function() {
     <!-- banner -->
 <?php include("header.php") ?>
 
-    <!-- register -->
+    <!-- register --> 
    
     <!-- //register -->
     <!-- services -->
+	<section style="background-image: url('1.jpg');padding:30px 30px; background-size:cover; height:100vh;width:100%">
     <div>
-        <div class="container ">
+        <div class="container " style="padding-top: 15%; ">
            </br></br>
-           <nav class="navbar bg-light">
-		   <div class="navbar-header">
-      <a class="navbar-brand" href="#"><h3>Start Searching</h3></a>
-    </div>
-  <div class="form-inline">
+        <div class="container " >
+			<div>
+           		<nav class="navbar bg-light"  >
+		   		<div class="navbar-header" >
+      				<a class="navbar-brand" href="#"><h3>Start Searching</h3></a>
+    			</div>
+			
+  			<div class="form-inline">
   
-   <select name="selCity" id="selCity" class="form-control mr-sm-2">
+   				<select name="selCity" id="selCity" class="form-control mr-sm-2">
                           <option selected="selected">Select City</option>
                           <?php
 								include "./conn.php";
@@ -222,7 +226,7 @@ $('#OtxtCoupon').on('input', function() {
 								}
 						  ?>
                         </select>
-  <select name="selLocation" id="selLocation" class="form-control mr-sm-2">
+  				<select name="selLocation" id="selLocation" class="form-control mr-sm-2">
                           <option selected="selected" value="all">Select Location</option>
                          <?php
 								include "./conn.php";
@@ -258,13 +262,15 @@ $('#OtxtCoupon').on('input', function() {
    
    
  
-    <button class="btn btn-outline-success my-2 my-sm-0" id="btnSearch" type="button">Go</button> 
-  </div>
+    			<button class="btn btn-outline-success my-2 my-sm-0" id="btnSearch" type="button" style="margin-left: 10px;">Go</button> 
+  	</div>
 </nav>
+</div>
 <!--Results-->
-        <div class="container "></br></br>
+        <div class="container "><br><br> 
+		<br> <br> <br>
             <div class="title-wthree text-center">
-                <h2 class="agile-title   text-black">
+                <h2 class="agile-title  ">
                     Search Results
                 </h2>
                 <span></span>  
@@ -335,6 +341,8 @@ $('#OtxtCoupon').on('input', function() {
 <!-- // Results-->        </div>
 
     </div>
+
+	</section>
   <!--  <center><button type="button" id="btnMore" class="btn btn-info">Click For More</button></center>
         <div id="moreData">
             

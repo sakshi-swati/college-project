@@ -33,15 +33,15 @@
         <ul class="navbar-nav ml-auto ul-class">
           <li class="nav-item mx-2">
           <li class="nav-item mx-2">
-            <a class="nav-link" href="index.php" style="color: white; font-size: 30px"
+            <a class="nav-link" href="index.php" style="color: white; font-size: 20px"
               >Home</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="chhatralay-hostel.php" style="color: white; font-size: 30px"
+            <a class="nav-link" href="chhatralay-hostel.php" style="color: white; font-size: 20px"
               >Find Hostel</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="contacts.php" style="color: white; font-size: 30px"
+            <a class="nav-link" href="contacts.php" style="color: white; font-size: 20px"
               >Contact Us</a
             >
           </li>
@@ -52,12 +52,12 @@
 	{
 		?>
 		
-		  <a class="nav-link" href="dashboard.php" style="color:#ff0; font-size: 30px"
+		  <a class="nav-link" href="dashboard.php" style="color:#ff0; font-size: 20px"
               ><span class="glyphicon glyphicon-user"></span>My Account
             </a>
           </li>
           <li>
-		  <a class="nav-link" href="logout.php" style="color:#ff0; font-size: 30px"
+		  <a class="nav-link" href="logout.php" style="color:#ff0; font-size: 20px"
               >logout
             </a>
           </li>
@@ -67,12 +67,12 @@
 	{
           ?>
           <li>
-		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 30px"
+		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 20px"
               >Register
             </a>
           </li>
           <li>
-		  <a class="nav-link" href="chhatralay-login.php" style="color:#ff0; font-size: 30px; font-weight:500"
+		  <a class="nav-link" href="chhatralay-login.php" style="color:#ff0; font-size: 20px;"
               >Login
             </a>
           </li>
@@ -82,7 +82,7 @@
         </ul>
       </div>
     </nav>
-    <section class="gradient my-5" style="background-image: linear-gradient(135deg, #09203f 10%, #537895 100%);">
+    <!--<section class="gradient my-5" style="background-image: linear-gradient(135deg, #09203f 10%, #537895 100%);">
       <div class="container">
         <div class="row text-center align-items-center">
           <div class="col-12 col-md-6">
@@ -108,4 +108,4 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->

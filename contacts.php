@@ -1,4 +1,4 @@
-<?phpsession_start(); ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,12 +28,11 @@
   </head>
 
   <body>
+   <div>
     <nav
       class="navbar navbar-expand-lg navbar-light navbar-custom text-center fixed-top"
     >
-      <a class="navbar-brand" href="index.php" style="color: white"
-        ><img class="logo p-2 m-1" style="width: 150px" src="logo.jpeg"
-      /></a>
+      <a class="navbar-brand" href="index.php" style="color: white ;font-size:35px; font-weight:650">Chhatralay</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -56,6 +55,10 @@
             >
           </li>
           <li class="nav-item mx-2">
+            <a class="nav-link" href="index.php" style="color: white; font-size: 20px"
+              >Home</a>
+          </li>
+          <li class="nav-item mx-2">
             <a class="nav-link" href="aboutus.php" style="color: white; font-size: 20px"
               >About Us</a
             >
@@ -67,9 +70,8 @@
             </a>
           </li>
           <?php
-    if(isset($_SESSION['cid']))
-	{
-		?>
+if (isset($_SESSION['cid'])) {
+?>
 		
 	
 		 <li>
@@ -83,10 +85,9 @@
             </a>
           </li>
 		<?php
-	}
-	else
-	{
-          ?>
+}
+else {
+?>
           <li>
 		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 20px"
               >Register
@@ -98,49 +99,23 @@
             </a>
           </li>
          <?php
-	}
-	?>
+}
+?>
         </ul>
       </div>
     </nav>
-    <section class="gradient my-5">
-      <div class="container">
-        <div class="row text-center align-items-center">
-          <div class="col-12 col-md-6">
-            <img
-              class="w-100"
-              src="https://cdn2.iconfinder.com/data/icons/buildings-66/92/44-512.png"
-              alt="md sohail ahmad"
-            />
-          </div>
-          <div class="col-12 col-md-6">
-            <div
-              class="font-weight-dark desktop mobile_screen_banner_text"
-              style="color: white"
-            >
-              Welcome to <b><span style="color: rgb(0, 0, 0)">Chhatralay</span></b>
-            </div>
-            <h2
-              class="font-weight-dark mobile_screen_banner"
-              style="color: white"
-            >
-              Like your Home!
-            </h2>
-          </div>
-        </div>
-      </div>
-    </section>
+   </div> 
    
 
 
     <!--Contact-->
-
-    <div class="container my-5">
-      <div class="col-12 text-center">
-        <h1><b>Contact</b></h1>
-      </div>
-      <form action="">
-        <label for="fname">First Name</label>
+    <section class="data" style="background-image: url('c.jpg');padding:30px 30px; background-size:cover; height:110vh;width:100%">
+     <div class="container my-5" style="background: rgba(0, 0, 0, 0.5);" >
+       <div class="col-12 text-center" >
+        <br><h1 style="color:beige;"><b>Contact</b></h1>
+       </div>
+       <form action="">
+        <label for="fname" style="color:beige;">First Name</label>
         <input
           type="text"
           id="fname"
@@ -148,7 +123,7 @@
           placeholder="Your name.."
         />
 
-        <label for="lname">Last Name</label>
+        <label for="lname" style="color:beige;">Last Name</label>
         <input
           type="text"
           id="lname"
@@ -156,7 +131,7 @@
           placeholder="Your last name.."
         />
 
-        <label for="email">Email</label>
+        <label for="email" style="color:beige;">Email</label>
         <input
           type="text"
           id="email"
@@ -164,7 +139,7 @@
           placeholder="Your email id"
         />
 
-        <label for="subject">Your Message</label>
+        <label for="subject" style="color:beige;">Your Message</label>
         <textarea
           id="subject"
           name="subject"
@@ -172,12 +147,12 @@
           style="height: 200px"
         ></textarea>
 
-        <input type="submit" value="Submit" class="gradient" />
-      </form>
-    </div> 
-	<div>
-
-</div>
+        <input type="submit" value="Submit" class="gradient" /><br>
+       </form>
+       <br>
+     </div> 
+    </section>
+	
     
 
     <footer>

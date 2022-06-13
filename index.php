@@ -31,14 +31,8 @@
     <nav
       class="navbar navbar-expand-lg navbar-light navbar-custom text-center fixed-top"
     >
-<<<<<<< HEAD
       <a class="navbar-brand" href="index.php" style="color: white; font-size:35px; font-weight:650"
         >Chhatralay</a>
-=======
-      <a class="navbar-brand" href="index.php" style="color: white">
-      <img class="logo p-2 m-1" style="width: 150px" src="logo.jpeg"/>
-      </a>
->>>>>>> aa0e6e60e0396dc4b98759818d97bf8c883a9009
       <button
         class="navbar-toggler"
         type="button"
