@@ -20,7 +20,7 @@ include "./conn.php";
 <html lang="zxx">
 
 <head>
-    <title>ZOYOZO : For Hostels , Foodeing , Bakeries</title>
+    <title>Chhatralay : For Hostels</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Lite Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -160,7 +160,8 @@ $('#OtxtCoupon').on('input', function() {
 							  <p class="card-text"><b>Details</b> -<?php echo $des;  ?></p>
 							   <p class="card-text"><b>Address</b> -<?php echo $full_addr;  ?></p>
 							 <?php
-							  if(isset($_SESSION['cid']) || (trim($_SESSION['cid']) != null))
+                             if(!isset($_SESSION['cid']) || (trim($_SESSION['cid'])!= null))
+							  
                              	{
                              	    ?>
                              	    
@@ -171,7 +172,7 @@ $('#OtxtCoupon').on('input', function() {
                              	else
                              	{
 							 ?>
-							   <a href="zoyozo-login.php"><button  type="button" class="btn btn-primary details-hostel" >
+							   <a href="chhatralay-login.php"><button  type="button" class="btn btn-primary details-hostel" >
     Book Now
   </button></a>
 							       <?php

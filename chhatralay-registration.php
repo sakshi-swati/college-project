@@ -111,10 +111,10 @@ $('#txtCid').on('click', function() {
 <br><br><br><br>
 <div class="row">
   <div class="col-sm-4">&nbsp;</div>
-  <div class="col-sm-4" style="    background-color: #d8dce5; margin:50px; ">
+  <div class="col-sm-4" style="    background-color: #d8dce5; margin:50px; box shadow:10px,20px; ">
       <br><br>
     <center>
-        <a href="https://www.zoyozo.in/"><img src="./logo.jpeg" width="250px" /></a>
+        
          	<h2>Register</h2>
     </center>
 		                  <div class="form-group">

@@ -34,7 +34,7 @@ require "conn.php";
 				   menu_url,
 				   advance_money,
 				   monthly_rate,
-				   zoyozo_rate,
+				   chhatralay_rate,
 				   delivery_area,
 				   city,
 				   status)
@@ -105,7 +105,7 @@ require "conn.php";
 				   menu_url='$image',
 				   advance_money='$advance',
 				   monthly_rate='$mrent',
-				   zoyozo_rate='$zrent',
+				   chhatralay_rate='$zrent',
 				   delivery_area='$darea',
 				   city='$city',
 				   availability='$availability',
@@ -144,7 +144,7 @@ $('#dataTables-example').dataTable();
 											  <th>WHATSAPP</th>
 											<th>ADVANCE MONEY</th>
 											<th>MONTHLY RATE</th>
-                                           <th>ZOYOZO RATE</th>
+                                           <th>Chhatralay RATE</th>
 											<th>DELIVERY AREA</th>
 											<th>CITY</th>
 											

@@ -7,7 +7,7 @@
 <!--logo start-->
 <div class="brand">
     <a href="dashboard.php" class="logo">
-        Apna Hostel
+        CHHATRALAY
     </a>
     <div class="sidebar-toggle-box">
         <div class="fa fa-bars"></div>

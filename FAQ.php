@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>ZOYOZO : For Hostels , Fooding , Hotels</title>
+    <title>Chhatralay: For Hostels</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Lite Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -38,21 +38,21 @@
 
       <div id="">
         <div class="b" style="background-color:#2f4f4f;color:White;">
-          <h4>What is ZOYOZO?</h4>
+          <h4>What is Chahatralay?</h4>
           <div style="color:White;">
-            Zoyozo is a hostel & lodges aggregation based model that helps
-            customers(especially students) to book online your own rooms and
-            meals with good facilities by using the zoyozo app.
+            Chhatralay is a hostel & lodges aggregation based model that helps
+            customers(especially students) to book online your own rooms 
+           with good facilities by using the chhatralay app.
           </div>
         </div>
 
         <div class="b" style="background-color:#2f4f4f;color:White;">
-          <h4>What all covered in ZOYOZO?</h4>
-          <div style="color:White;">Go through the website (www.zoyozo.in) or mobile app.</div>
+          <h4>What all covered in chhatralay?</h4>
+          <div style="color:White;">Go through the website (www.chhatralay.in) or mobile app.</div>
         </div>
 
         <div class="b" style="background-color:#2f4f4f;color:White;">
-          <h4>How to login on ZOYOZO?</h4>
+          <h4>How to login on chhatralay?</h4>
           <div style="color:White;">
             You need to register first on App or web site. Valid email-id is
             necessary to register.
@@ -62,7 +62,7 @@
         <div class="b" style="background-color:#2f4f4f;color:White;">
           <h4>Who is Guest? </h4>
           <div style="color:White;">
-          Guest is a user of ZOYOZO,who can book the properties and mess that
+          Guest is a user of chhatralay,who can book the properties and mess that
             are available.
           </div>
         </div>
@@ -71,7 +71,7 @@
           <h4>Who is Host?</h4>
           <div style="color:White;">
             Host is the owner of one or more properties that are showcased on
-            ZOYOZO platform. Host also can choose/book his stay as anyother guest.
+            chhatralay platform. Host also can choose/book his stay as anyother guest.
             
           </div>
         </div>

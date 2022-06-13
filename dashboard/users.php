@@ -3,7 +3,7 @@
 include("auth.php");
 ?>
 <head>
-<title>Zoyozo | Dashboard</title>
+<title>chhatralay | Dashboard</title>
 <link rel="icon" href="images/2.png" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

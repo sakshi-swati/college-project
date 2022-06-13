@@ -37,9 +37,9 @@ $(".book-now-hostel").click(function()
 							  <h4 class="card-title"><?php echo $rs['accid']."-".$rs['title'] ?></h4>
 							  <p class="card-text"><b>Near By</b> -<?php echo $rs['near_by'] ?></p>
 							  <p class="card-text"><b>Monthly Rent</b> -<?php echo $rs['monthly_rent'] ?></p>
-							  <p class="card-text"><b>ZOYOZO Price</b> -<?php echo $rs['zoyozo_rent'] ?></p>
+							  <p class="card-text"><b>Chhatralay Price</b> -<?php echo $rs['chhatralay_rent'] ?></p>
 							  <p class="card-text" style="color:#067c06"> <b><span style="color:#000">Availability</span>-<?php echo $rs['availability'] ?></b></p>
-							  <p class="card-text" style="color:red"><b><?php echo $rs['monthly_rent']-$rs['zoyozo_rent']?> Rs. Discount</b></p>
+							  <p class="card-text" style="color:red"><b><?php echo $rs['monthly_rent']-$rs['chhatralay_rent']?> Rs. Discount</b></p>
 							 <?php
 							  if(isset($_SESSION['cid']) || (trim($_SESSION['cid']) != null))
                              	{
@@ -52,7 +52,7 @@ $(".book-now-hostel").click(function()
                              	else
                              	{
 							 ?>
-							   <a href="zoyozo-login.php"><button  type="button" class="btn btn-primary details-hostel" >
+							   <a href="chhatralay-login.php"><button  type="button" class="btn btn-primary details-hostel" >
     Book Now
   </button></a>
 							       <?php

@@ -24,7 +24,7 @@
     
     
     <link href="loggo.png" rel="icon" type="image/x-icon" />
-    <title>Apna Hostel : For Hostel,Meal& Hotel</title>
+    <title>Chhatralay : For Hostel</title>
   </head>
 
   <body>
@@ -51,13 +51,13 @@
           <li class="nav-item mx-2">
             
           <li class="nav-item mx-2">
-            <a class="nav-link" href="apnaHostel-hostel.php" style="color: white; font-size: 20px"
+            <a class="nav-link" href="Chhatralay-hostel.php" style="color: white; font-size: 20px"
               >Find Hostel</a
             >
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="apnaHostel-mess.php" style="color: white; font-size: 20px"
-              >Book Mess</a
+            <a class="nav-link" href="aboutus.php" style="color: white; font-size: 20px"
+              >About Us</a
             >
           </li>
           
@@ -88,12 +88,12 @@
 	{
           ?>
           <li>
-		  <a class="nav-link" href="apnaHostel-registration.php" style="color: white; font-size: 20px"
+		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 20px"
               >Register
             </a>
           </li>
           <li>
-		  <a class="nav-link" href="apnaHostel-login.php" style="color:#ff0; font-size: 20px"
+		  <a class="nav-link" href="chhatralay-login.php" style="color:#ff0; font-size: 20px"
               >Login
             </a>
           </li>
@@ -118,13 +118,13 @@
               class="font-weight-dark desktop mobile_screen_banner_text"
               style="color: white"
             >
-              Welcome to <b><span style="color: rgb(0, 0, 0)">APNA HOSTEL</span></b>
+              Welcome to <b><span style="color: rgb(0, 0, 0)">Chhatralay</span></b>
             </div>
             <h2
               class="font-weight-dark mobile_screen_banner"
               style="color: white"
             >
-              NO HOMESICKNESS!
+              Like your Home!
             </h2>
           </div>
         </div>
@@ -184,11 +184,7 @@
       <div class="container-fluid my-5 bg-light p-5">
         <div class="row">
           <div class="col-12 text-center my-3">
-		  <!-- <a href="https://www.instamojo.com/@Apna Hostel_sn/" target="_blank"  class="footer_anchor_decoration">
-            <button class=" btn gradient" style="color: white; font-weight: bold" >Pay to Apna Hostel
-			 
-            </button>
-			</a> -->
+		
           </div>
           <div class="col-12 col-md-4 text-center">
             <h4>Quick Links</h4>
@@ -198,32 +194,32 @@
             <a href="#contactus" class="footer_anchor_decoration">Contact us</a><br />
           </div>
           <div class="col-12 col-md-4 text-center mt-5">
-            <a href="https://www.instamojo.com/@Apna Hostel_sn/" target="_blank"  class="footer_anchor_decoration">Pay To Apna Hostel</a><br />
-            <a href="customer-polocy.php" class="footer_anchor_decoration">Customer Policy</a
+            <a href="#" target="_blank"  class="footer_anchor_decoration">pay to chhatralay</a><br />
+            <a href="#" class="footer_anchor_decoration">Customer Policy</a
             ><br />
-            <a href="privacy_policy.html" class="footer_anchor_decoration">Privacy Policy</a><br />
+            <a href="#" class="footer_anchor_decoration">Privacy Policy</a><br />
           </div>
           <div class="col-12 col-md-4 text-center my-5">
             <h4>Follow Us</h4>
-            <a href="https://www.facebook.com/Apna Hostel-1564437437019822/?modal=admin_todo_tour" target="_blank" class="footer_anchor_decoration"
+            <a href="#" target="_blank" class="footer_anchor_decoration"
               ><i class="fab fa-facebook-square fa-2x fa-2x"></i></a>
-            <a href="https://www.instagram.com/Apna Hostelindia/" target="_blank"  class="footer_anchor_decoration"
+            <a href="#" target="_blank"  class="footer_anchor_decoration"
               ><i class="fab fa-instagram-square fa-2x"></i
             ></a>
-            <a href="https://mail.google.com/mail/contactApna Hostel@gmail.com" target="_blank"  class="footer_anchor_decoration"
+            <a href="#" target="_blank"  class="footer_anchor_decoration"
               ><i class="fa fa-envelope-square fa-2x"></i
             ></a>
-            <a href="https://twitter.com/Apna Hostelindia?s=08" target="_blank"  class="footer_anchor_decoration"
+            <a href="#" target="_blank"  class="footer_anchor_decoration"
               ><i class="fab fa-twitter-square fa-2x"></i
             ></a>
-            <a href="https://www.youtube.com/channel/UCdHpjkGCaYdvdT-bwKS3DSQ?disable_polymer=true" target="_blank" class="footer_anchor_decoration"
+            <a href="#" target="_blank" class="footer_anchor_decoration"
               ><i class="fab fa-youtube-square fa-2x"></i
             ></a>
           </div>
         </div>
         <div class="col-12 text-center"> 
-		<p>© 2019 Apna Hostel. All rights reserved | Powered by <b>"Apna Hostel Hospitality and Marketing"</b>
-        <a href="https://www.Apna Hostel.in/"><b>(Apna Hostel)</b></a>
+		<p>© 2019 Chhatralay. All rights reserved | Powered by <b></b>
+        <a href="https://www.chhatralay.in/"><b>(Chhatralay)</b></a>
         </p>
 	     </div>
       </div>

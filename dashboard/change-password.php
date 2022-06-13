@@ -3,7 +3,7 @@ include("auth.php");
 ?>
 <!DOCTYPE html>
 <head>
-<title>Zoyozo | Dashboard</title>
+<title>Chhatralay | Dashboard</title>
 <link rel="icon" href="images/2.png" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -64,8 +64,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <input type="text" class="form-control"  id="newpass" placeholder="Enter New Password"></textarea>
                                 </div>
 								<div class="form-group">
-                                    <label for="repass">Conferm Password<span style="color:red">*</span></label>
-                                    <input type="text" class="form-control"  id="repass" placeholder="Conferm New Password"></textarea>
+                                    <label for="repass">Confirm Password<span style="color:red">*</span></label>
+                                    <input type="text" class="form-control"  id="repass" placeholder="Confirm New Password"></textarea>
                                 </div>
                                
                                 <button type="submit" class="btn btn-info" id="btn_passchange"><span id="changepasstext">Change Password</span></button>
