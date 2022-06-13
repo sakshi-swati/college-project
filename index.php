@@ -1,4 +1,4 @@
-<?phpsession_start(); ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,16 +24,15 @@
     
     
     <link href="loggo.png" rel="icon" type="image/x-icon" />
-    <title>chhatralay : For Hostel</title>
+    <title>Chhatralay : For Hostel</title>
   </head>
 
   <body>
     <nav
       class="navbar navbar-expand-lg navbar-light navbar-custom text-center fixed-top"
     >
-      <a class="navbar-brand" href="index.php" style="color: white"
-        ><img class="logo p-2 m-1" style="width: 150px" src="logo.jpeg"
-      /></a>
+      <a class="navbar-brand" href="index.php" style="color: white; font-size:35px; font-weight:650"
+        >Chhatralay</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -53,6 +52,11 @@
           <li class="nav-item mx-2">
             <a class="nav-link" href="chhatralay-hostel.php" style="color: white; font-size: 20px"
               >Find Hostel</a
+            >
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="index.php" style="color: white; font-size: 20px"
+              >Home</a
             >
           </li>
           <li class="nav-item mx-2">
@@ -103,29 +107,14 @@
         </ul>
       </div>
     </nav>
-    <section class="gradient my-5" style="background-image: linear-gradient(135deg, #09203f 10%, #537895 100%);">
+    <section class="gradient my-5" style="margin-bottom:0%; background-image: url('img2.jpg'); background-size:cover; height:90vh; ">
       <div class="container">
-        <div class="row text-center align-items-center">
-          <div class="col-12 col-md-6">
-            <img
-              class="w-100"
-              src="https://cdn2.iconfinder.com/data/icons/buildings-66/92/33-512.png" style="margin-top: 25px;"
-              alt="md sohail ahmad"
-            />
-          </div>
-          <div class="col-12 col-md-6">
-            <div
-              class="font-weight-dark desktop mobile_screen_banner_text"
-              style="color: white"
-            >
-              Welcome to <b><span style="color: rgb(0, 0, 0)">CHHATRALAY</span></b>
-            </div>
-            <h2
-              class="font-weight-dark mobile_screen_banner"
-              style="color: white"
-            >
-              Like your Home!
-            </h2>
+        <div class="row text-center align-items-center" style="padding: 10%;">
+        
+          <div class="domain ">
+            <h1 style="background: rgba(0, 0, 0, 0.5); font-size:10rem;font-weight:620;color:azure">Chhatralay</h1><br>
+            <p style="font-size: 4rem; color:beige;font-weight:600">We find Better!!!</p>
+            
           </div>
         </div>
       </div>
@@ -135,7 +124,7 @@
 	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 
-    <div class="fluid-container service" >
+    <div class="fluid-container service" style="margin-top:0;"; >
       <div class="col-12 text-center my-5">
         <h1 class="title_border"><b>Our Services</b></h1>
       </div>

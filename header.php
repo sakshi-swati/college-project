@@ -15,9 +15,8 @@
     <nav
       class="navbar navbar-expand-lg navbar-light navbar-custom text-center fixed-top" 
     >
-      <a class="navbar-brand" href="index.php" style="color: white"
-        ><img class="logo p-2 m-1" style="width: 150px" src="logo.jpeg"
-      /></a>
+      <a class="navbar-brand" href="index.php" style="color: white; font-size:35px; font-weight:650"
+        >Chhatralay</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -33,14 +32,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto ul-class">
           <li class="nav-item mx-2">
-            
           <li class="nav-item mx-2">
-            <a class="nav-link" href="chhatralay-hostel.php" style="color: white; font-size: 20px"
-              >Find Hostel</a
-            >
+            <a class="nav-link" href="index.php" style="color: white; font-size: 30px"
+              >Home</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="contacts.php" style="color: white; font-size: 20px"
+            <a class="nav-link" href="chhatralay-hostel.php" style="color: white; font-size: 30px"
+              >Find Hostel</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="contacts.php" style="color: white; font-size: 30px"
               >Contact Us</a
             >
           </li>
@@ -51,12 +52,12 @@
 	{
 		?>
 		
-		  <a class="nav-link" href="dashboard.php" style="color:#ff0; font-size: 20px"
+		  <a class="nav-link" href="dashboard.php" style="color:#ff0; font-size: 30px"
               ><span class="glyphicon glyphicon-user"></span>My Account
             </a>
           </li>
           <li>
-		  <a class="nav-link" href="logout.php" style="color:#ff0; font-size: 20px"
+		  <a class="nav-link" href="logout.php" style="color:#ff0; font-size: 30px"
               >logout
             </a>
           </li>
@@ -66,12 +67,12 @@
 	{
           ?>
           <li>
-		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 20px"
+		  <a class="nav-link" href="chhatralay-registration.php" style="color: white; font-size: 30px"
               >Register
             </a>
           </li>
           <li>
-		  <a class="nav-link" href="chhatralay-login.php" style="color:#ff0; font-size: 20px"
+		  <a class="nav-link" href="chhatralay-login.php" style="color:#ff0; font-size: 30px; font-weight:500"
               >Login
             </a>
           </li>

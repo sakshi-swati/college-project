@@ -219,7 +219,56 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: blue;
   }
-/* teams */
+
+/*======title=======*/
+
+.domain .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 10px 28px;
+    transition: 0.5s;
+    border: 2px solid #cc1616;
+    background: #cc1616;
+    text-decoration: none;
+    color: #fff;
+   text-align: center;
+  }
+  .scrollto:hover{
+    border-width: 5px;
+  }
+  
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  @media (min-width: 1024px) {
+    #domain {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-width: 768px) {
+    .domain {
+      text-align: center;
+    }
+    .domain .container {
+      padding-top: 40px;
+    }
+    .domain h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .domain p {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
 
   /* footer */
   
