@@ -10,7 +10,7 @@
 		  }
 		  else
 		  {
-			  echo "<b>Reference number not Registered with ZOYOZO</b>";
+			  echo "<b>Reference number not Registered with chhatralay</b>";
 		  }	
 		  
 		  	      

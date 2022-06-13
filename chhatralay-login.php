@@ -66,7 +66,7 @@ $("#txtId").focus();
   <div class="col-sm-4" style="background-color: #d8dce5; ">
       <br><br>
     <center>
-        <a href="https://www.zoyozo.in/"><img src="./logo.jpeg" width="250px" /></a>
+       
          	<h2>User Login</h2>
     </center>
 

@@ -24,7 +24,7 @@
     
     
     <link href="loggo.png" rel="icon" type="image/x-icon" />
-    <title>chhatralay : For Hostel,Meal& Hotel</title>
+    <title>chhatralay : For Hostel</title>
   </head>
 
   <body>
@@ -56,8 +56,8 @@
             >
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="chhatralay-mess.php" style="color: white; font-size: 20px"
-              >Book Mess</a
+            <a class="nav-link" href="aboutus.php" style="color: white; font-size: 20px"
+              >About Us</a
             >
           </li>
           
@@ -118,13 +118,13 @@
               class="font-weight-dark desktop mobile_screen_banner_text"
               style="color: white"
             >
-              Welcome to <b><span style="color: rgb(0, 0, 0)">CHHATRALAy</span></b>
+              Welcome to <b><span style="color: rgb(0, 0, 0)">CHHATRALAY</span></b>
             </div>
             <h2
               class="font-weight-dark mobile_screen_banner"
               style="color: white"
             >
-              NO HOMESICKNESS!
+              Like your Home!
             </h2>
           </div>
         </div>
@@ -155,8 +155,8 @@
               <div class="text-center">
                 <a
                   href="chhatralay-hostel.php"
-                  class="btn gradient"
-                  style="color: white; font-weight: bold"
+                  class="btn btn-primary "
+                  style="color: black; font-weight: bold"
                   >Book Hostel</a
                 >
               </div>
@@ -167,16 +167,16 @@
         
         <div class="col-12 col-lg-6">
         <center>  <div class="card card_center shadow" style="width: 18rem; height: 44.5vh;">
-            <img src="R.jpg" class="card-img-top" alt="..." />
+            
             <div class="card-body">
-              <h2 class="card-title text-center">Mess</h2>
+              <h2 class="card-title text-center">get hostel in your locality without searching and wasting your time</h2>
 
               <div class="text-center">
                 <a
-                  href="Apna Hostel-mess.php"
+                  href=""
                   class="btn gradient"
                   style="color: white; font-weight: bold"
-                  >Book Mess</a
+                  >smile</a
                 >
               </div>
             </div>
@@ -259,7 +259,7 @@ include("register.html");
         <q>
         I was able to find very spacious and well-maintained service Hostel at a very affordable price using your service.
                   </q>
-        <p class="author"><b>- Shubham Agrawal</b></p>
+        <p class="author"><b>- Anuj Agrawal</b></p>
       </div>
 
       <div class="mySlides">
@@ -275,7 +275,7 @@ include("register.html");
         />
         <q
           >
-              Have to admit Apna Hostel is the best accommodation finding app in the market.
+              Have to admit Chhatralay is the best accommodation finding app in the market.
                   </q
         >
         <p class="author"><b>- Muskan Kumari</b></p>
@@ -293,7 +293,7 @@ include("register.html");
           "
         />
         <q>
-           I recommend Apna Hostel to everyone who is looking to find the best hostels in different Cities.
+           I recommend Chhatralay to everyone who is looking to find the best hostels in different Cities.
                   </q>
         <p class="author"><b>- Sakshi Goyal</b> </p>
       </div>
@@ -360,31 +360,31 @@ include("register.html");
             <a href="#contactus" class="footer_anchor_decoration">Contact us</a><br />
           </div>
           <div class="col-12 col-md-4 text-center mt-5">
-            <a href="https://www.instamojo.com/@Apna Hostel_sn/" target="_blank"  class="footer_anchor_decoration">Pay To Apna Hostel</a><br />
+            <a href="#" target="_blank"  class="footer_anchor_decoration">Pay To Chhatralay</a><br />
             <a href="customer-polocy.php" class="footer_anchor_decoration">Customer Policy</a
             ><br />
             <a href="privacy_policy.html" class="footer_anchor_decoration">Privacy Policy</a><br />
           </div>
           <div class="col-12 col-md-4 text-center my-5">
             <h4>Follow Us</h4>
-            <a href="https://www.facebook.com/Apna Hostel-1564437437019822/?modal=admin_todo_tour" target="_blank" class="footer_anchor_decoration"
+            <a href="#" target="_blank" class="footer_anchor_decoration"
               ><i class="fab fa-facebook-square fa-2x fa-2x"></i></a>
-            <a href="https://www.instagram.com/Apna Hostelindia/" target="_blank"  class="footer_anchor_decoration"
+            <a href="#" target="_blank"  class="footer_anchor_decoration"
               ><i class="fab fa-instagram-square fa-2x"></i
             ></a>
-            <a href="https://mail.google.com/mail/contactApna Hostel@gmail.com" target="_blank"  class="footer_anchor_decoration"
+            <a href="#" target="_blank"  class="footer_anchor_decoration"
               ><i class="fa fa-envelope-square fa-2x"></i
             ></a>
-            <a href="https://twitter.com/Apna Hostelindia?s=08" target="_blank"  class="footer_anchor_decoration"
+            <a href="#" target="_blank"  class="footer_anchor_decoration"
               ><i class="fab fa-twitter-square fa-2x"></i
             ></a>
-            <a href="https://www.youtube.com/channel/UCdHpjkGCaYdvdT-bwKS3DSQ?disable_polymer=true" target="_blank" class="footer_anchor_decoration"
+            <a href="#" target="_blank" class="footer_anchor_decoration"
               ><i class="fab fa-youtube-square fa-2x"></i
             ></a>
           </div>
           <div class="col-12 text-center"> 
-		<p>© 2019 Apna Hostel. All rights reserved | Powered by <b>"Apna Hostel Hospitality and Marketing"</b>
-        <a href="https://www.Apna Hostel.in/"><b>(Apna Hostel)</b></a>
+		<p>© 2019 Chhatralay. All rights reserved | Powered by <b>"Chhatralay Hospitality and Marketing"</b>
+        <a href="https://www.Chhatralay.in/"><b>(Chhatralay)</b></a>
         </p>
 	     </div>
         </div>

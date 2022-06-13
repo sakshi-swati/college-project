@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Zoyozo</title>
+  <title>chhatralay</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -73,7 +73,7 @@
       <input type="text" class="form-control" id="txtNum" placeholder="Enter Mobile Number" name="txtNum">
     </div>
       <div class="form-group">
-      <label for="pwd">Rate Zoyozo Service</label>
+      <label for="pwd">Rate chhatralay Service</label>
       <br>
     <label class="radio-inline">
       <input type="radio" name="optradio"  id="optradio1" onclick="check();" value="1">1

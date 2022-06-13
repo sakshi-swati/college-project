@@ -48,7 +48,7 @@ require "conn.php";
 				   preference,
 				   terms_and_conditions,
 				   monthly_rent,
-				   zoyozo_rent,
+				   chhatralay_rent,
 				   description,
 				   availability,
 				   status)
@@ -166,7 +166,7 @@ $('#dataTables-example').dataTable();
 											<th>PREFERENCE</th>
 											<th>TERM & CONDITION</th>
 											<th>MONTHLY RENT</th>
-											<th>ZOYOZO PRICE</th>
+											<th>Chhatralay PRICE</th>
 											<th>DESCRIPTION</th>
 											
 											<th>&nbsp;</th>
@@ -206,7 +206,7 @@ $('#dataTables-example').dataTable();
 											echo'<td>'.$row['preference'].'</td>';
 											echo'<td>'.$row['terms_and_conditions'].'</td>';
 											echo'<td>'.$row['monthly_rent'].'</td>';
-											echo'<td>'.$row['zoyozo_rent'].'</td>';
+											echo'<td>'.$row['chhatralay_rent'].'</td>';
 											echo'<td>'.$row['description'].'</td>';
 											?>
 											<td><a href="update-accommodation.php?id=<?php echo $row['accid'] ?>">Update</a></td>

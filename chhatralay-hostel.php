@@ -4,7 +4,7 @@
 
 <head>
 <link href="loggo.png" rel="icon" type="image/x-icon" />
-    <title>chhatralay: For Hostels , Fooding ,Hotels</title>
+    <title>chhatralay: For Hostels </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Lite Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -292,7 +292,7 @@ $('#OtxtCoupon').on('input', function() {
 							  <h4 class="card-title"><?php echo $rs['accid']."-".$rs['title'] ?></h4>
 							  <p class="card-text"><b>Near By</b> -<?php echo $rs['near_by'] ?></p>
 							  <p class="card-text"><b>Monthly Rent</b> -<?php echo $rs['monthly_rent'] ?></p>
-							  <p class="card-text"><b>ZOYOZO Price</b> -<?php echo $rs['zoyozo_rent'] ?></p>
+							  <p class="card-text"><b>Chhatralay Price</b> -<?php echo $rs['chhatralay_rent'] ?></p>
 							  <p class="card-text" style="color:#067c06"> <b><span style="color:#000">Availability</span>-<?php echo $rs['availability'] ?></b></p>
 							  
 							 
@@ -308,7 +308,7 @@ $('#OtxtCoupon').on('input', function() {
                              	else
                              	{
 							 ?>
-							   <a href="apnaHostel-login.php"><button  type="button" class="btn btn-primary details-hostel" >
+							   <a href="chhatralay-login.php"><button  type="button" class="btn btn-primary details-hostel" >
     Book Now
   </button></a>
 							       <?php
@@ -366,7 +366,7 @@ $('#OtxtCoupon').on('input', function() {
 						
 					  </div>
 					  <div class="form-group"style="color:black">
-						<label for="phone">Have ZOYOZO Promo Code?:</label>
+						<label for="phone">Have Chhatralay Promo Code?:</label>
 						<input type="text" class="form-control" id="OtxtCoupon">
 						<span id="oMsg"></span>
 					  </div>

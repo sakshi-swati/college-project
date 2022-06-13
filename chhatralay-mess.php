@@ -107,7 +107,7 @@ $(document).ready(function()
 							<div class="card-body">
 							  <h4 class="card-title"><?php echo $rs['id']."-".$rs['title'] ?></h4>
 							   <p class="card-text"><b>Monthly Rate</b> -<?php echo $rs['monthly_rate'] ?></p>
-							  <p class="card-text"><b>Apna Hostel Price</b> -<?php echo $rs['zoyozo_rate'] ?></p>
+							  <p class="card-text"><b>Chhatralay Price</b> -<?php echo $rs['chhatralay_rate'] ?></p>
 							  <p class="card-text"><b>Delivery Area</b> -<?php echo $rs['delivery_area'] ?></p>
 							   <p class="card-text" style="color:#067c06"> <b><span style="color:#000">Availability</span>-<?php echo $rs['availability'] ?></b></p>
 							  

@@ -40,8 +40,8 @@
             >
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="chhatralay-mess.php" style="color: white; font-size: 20px"
-              >Book Mess</a
+            <a class="nav-link" href="contacts.php" style="color: white; font-size: 20px"
+              >Contact Us</a
             >
           </li>
          
@@ -96,13 +96,13 @@
               class="font-weight-dark desktop mobile_screen_banner_text"
               style="color: white"
             >
-              Welcome to <b><span style="color: rgb(0, 0, 0)">Apna Hostel</span></b>
+              Welcome to <b><span style="color: rgb(0, 0, 0)">Chhatralay</span></b>
             </div>
             <h2
               class="font-weight-dark mobile_screen_banner"
               style="color: white"
             >
-              NO HOMESICKNESS!
+              Like your Home!
             </h2>
           </div>
         </div>

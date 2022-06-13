@@ -5,7 +5,7 @@ include("conn.php");
 ?>
 <!DOCTYPE html>
 <head>
-<title>Zoyozo | Dashboard</title>
+<title>Chhatralay | Dashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Visitors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -93,6 +93,9 @@ function stopUpload(success,uploadedFile){
                                     <label for="hostel">Select Type<span style="color:red">*</span></label>
 									<select class="form-control" id="seltype">
 									<option selected="selected">Select Type</option>
+									<option selected="selected">Boys</option>
+									<option selected="selected">Girls</option>
+									
 										<?php
 											$sql="select * from tbl_type";
 											$smt=mysqli_query($conn,$sql);
@@ -230,7 +233,7 @@ function stopUpload(success,uploadedFile){
                                 </div>
                                 
                                 <div class="form-group">
-                                    <label for="month">ZOYOZO Price</label>
+                                    <label for="month">Chhatralay Price</label>
 									<input type="text" class="form-control" id="txtZoyozoPrice" placeholder="ZOYOZO Price">
                                     
                                 </div>

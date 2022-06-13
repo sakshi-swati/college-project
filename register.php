@@ -1,7 +1,7 @@
 <?php
 
 $mysqlserverhost = "Localhost";
-$database_name = "zoyozo_db";
+$database_name = "chhatralay_db";
 $username_mysql = "root";
 $password_mysql = "";
 
