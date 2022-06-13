@@ -135,7 +135,7 @@
       </div>
     </div>
 
-    <div class="container-fluid mt-3 p-5">
+    <!-- <div class="container-fluid mt-3 p-5">
       <div class="row">
         <div class="col-md-6 col-12">
           <img
@@ -157,7 +157,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div> --> -->
     <!-- <div class="container-fluid  p-5 bg-light">
       <div class="row">
         <div class="col-md-6 col-12">
