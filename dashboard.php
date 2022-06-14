@@ -152,8 +152,8 @@ $(document).ready(function()
                
                <div>
               <h4 style="color:#8b5c7e;margin-left:0px">Refer and Earn upto Rs. 500 /- : Get Your Referral Link</h4>
-              Copy this link and share to others.Ask them to register @ ZOYOZO.
-              <div style="background-color:#DFE3EE;padding:10px;border-radius:5px"><a style="color:#00f" href="http://www.zoyozo.in/zoyozo-registration.php?sponser=<?php echo $cid?>" target="_blank" >http://www.zoyozo.in/zoyozo-registration.php?sponser=<?php echo $cid?></a></div>   
+              Copy this link and share to others.Ask them to register @CHHATRALAY.
+              <div style="background-color:#DFE3EE;padding:10px;border-radius:5px"><a style="color:#00f" href="http://www.zoyozo.in/zoyozo-registration.php?sponser=<?php echo $cid?>" target="_blank" >http://www.chhatralay.in/chhatralay-registration.php?sponser=<?php echo $cid?></a></div>   
               
               <br>
               <h4 style="color:#8b5c7e;margin-left:0px">Referral Wallet</h4>

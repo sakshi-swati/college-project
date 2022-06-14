@@ -107,11 +107,13 @@ $('#txtCid').on('click', function() {
 });
 </script>
 </head>
-<body>
-<br><br><br><br>
+<body style="overflow: hidden;height=100%;">
+	
+<section class="data" style="background-image: url('regis_pic.jpg');padding:30px 30px; background-size:cover; height:110vh;width:100%">
+<br>
 <div class="row">
   <div class="col-sm-4">&nbsp;</div>
-  <div class="col-sm-4" style="    background-color: #d8dce5; margin:50px; box shadow:10px,20px; ">
+  <div class="col-sm-4" style=" width:70%; background-color: #add8e6; margin:50px 220px; box shadow:20px,20px; opacity:0.9; ">
       <br><br>
     <center>
         
@@ -142,16 +144,13 @@ $('#txtCid').on('click', function() {
 								<button type="button" id="btnRegister"  class="btn btn-lg btn-primary">Register</button>
 								</center><br>
 		<p>Allready registered ?<a href="chhatralay-login.php" style="color:#000">Login</a>
-		<br><br>
-	
 		</p>
-			Note - All (*) marked fileds are required.
-	
-<br><br>
+			<!-- Note - All (*) marked fileds are required. -->
 </div>
   <div class="col-sm-4">&nbsp;</div>
 </div>
-	<br><br><br><br><br><br>
+	
+</section>
 <script src="js/bootstrap.js"></script>
 <script src="js/jquery.dcjqaccordion.2.7.js"></script>
 <script src="js/scripts.js"></script>

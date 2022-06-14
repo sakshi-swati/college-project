@@ -341,6 +341,7 @@ $('#OtxtCoupon').on('input', function() {
 <!-- // Results-->        </div>
 
     </div>
+	<br><br><br>
 	<div>
   <?php include ("footer.php") ?>
 								</div>

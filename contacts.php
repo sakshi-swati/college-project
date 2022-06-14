@@ -114,7 +114,7 @@ else {
        <div class="col-12 text-center" >
         <br><h1 style="color:beige;"><b>Contact</b></h1>
        </div>
-       <form action="">
+       <form action="" style="margin:10px 20px;">
         <label for="fname" style="color:beige;">First Name</label>
         <input
           type="text"
@@ -144,11 +144,11 @@ else {
           id="subject"
           name="subject"
           placeholder="Write something.."
-          style="height: 200px"
+          style="height: 130px"
         ></textarea>
 
         <input type="submit" value="Submit" class="gradient" /><br>
-       </form>
+       </form> 
        <br>
      </div> 
     </section>

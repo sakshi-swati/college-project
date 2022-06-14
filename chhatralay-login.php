@@ -59,11 +59,12 @@ $("#txtId").focus();
 });
 </script>
 </head>
-<body>
+<body style="overflow: hidden;height=100%;">
+<section class="data" style="background-image: url('login_pic.jpg');padding:30px 30px; background-size:cover; height:110vh;width:100%">
       <br><br><br><br>
 <div class="row">
   <div class="col-sm-4"></div>
-  <div class="col-sm-4" style="background-color: #d8dce5; ">
+  <div class="col-sm-4" style=" width:70%; background-color: #6fbbd3; margin:50px 220px; box shadow:20px,20px; opacity:0.8; ">
       <br><br>
     <center>
        
@@ -83,15 +84,14 @@ $("#txtId").focus();
 								<center>
 								<button type="button" id="btnMemberLogin"  class="btn btn-lg btn-primary">LOGIN NOW</button>
 								</center>
-		<p>Don't registered ?<a href="chhatralay-registration.php" style="color:#000"><br>Register</a></p>
-		<br>
-			Note - All (*) marked fileds are required.
-		
-	<br><br>
+		<p>Not yet registered ?<a href="chhatralay-registration.php" style="color:#000"><br>Register</a></p>
+		<br><br>
+			<!-- Note - All (*) marked fileds are required. -->
 </div>
   <div class="col-sm-4"></div>
 </div>
 	<br><br><br><br><br><br>
+</section>
 <script src="js/bootstrap.js"></script>
 <script src="js/jquery.dcjqaccordion.2.7.js"></script>
 <script src="js/scripts.js"></script>
