@@ -341,6 +341,9 @@ $('#OtxtCoupon').on('input', function() {
 <!-- // Results-->        </div>
 
     </div>
+	<div>
+  <?php include ("footer.php") ?>
+								</div>
 
 	</section>
   <!--  <center><button type="button" id="btnMore" class="btn btn-info">Click For More</button></center>
@@ -431,8 +434,9 @@ $('#OtxtCoupon').on('input', function() {
       </div>
     </div>
   </div>
+  
     <!-- //contact -->
-<?php include ("footer.php") ?>
+
     <!-- login  -->
 
     <!-- //login -->

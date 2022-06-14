@@ -1,4 +1,4 @@
-<?php session_start() ?>	
+
 <script>
 $(".book-now-hostel").click(function()
 		{	
@@ -41,7 +41,8 @@ $(".book-now-hostel").click(function()
 							  <p class="card-text" style="color:#067c06"> <b><span style="color:#000">Availability</span>-<?php echo $rs['availability'] ?></b></p>
 							  <p class="card-text" style="color:red"><b><?php echo $rs['monthly_rent']-$rs['chhatralay_rent']?> Rs. Discount</b></p>
 							 <?php
-							  if(isset($_SESSION['cid']) || (trim($_SESSION['cid']) != null))
+							
+							if(!isset($_SESSION['cid']) || (trim($_SESSION['cid']) == null))
                              	{
                              	    ?>
                              	    

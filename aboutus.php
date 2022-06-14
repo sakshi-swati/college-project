@@ -61,8 +61,8 @@
               >Home</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="chhatralay-mess.php" style="color: white; font-size: 20px"
-              >Book Mess</a
+            <a class="nav-link" href="contacts.php" style="color: white; font-size: 20px"
+              >Contact Us</a
             >
           </li>
          

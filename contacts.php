@@ -154,51 +154,10 @@ else {
     </section>
 	
     
+    <div>
+  <?php include ("footer.php") ?>
+								</div>
 
-    <footer>
-      <div class="container-fluid my-5 bg-light p-5">
-        <div class="row">
-          <div class="col-12 text-center my-3">
-		
-          </div>
-          <div class="col-12 col-md-4 text-center">
-            <h4>Quick Links</h4>
-            <a href="aboutus.php" class="footer_anchor_decoration">About us </a><br />
-            <a href="FAQ.php" class="footer_anchor_decoration">FAQ</a><br />
-            
-            <a href="#contactus" class="footer_anchor_decoration">Contact us</a><br />
-          </div>
-          <div class="col-12 col-md-4 text-center mt-5">
-            <a href="#" target="_blank"  class="footer_anchor_decoration">pay to chhatralay</a><br />
-            <a href="#" class="footer_anchor_decoration">Customer Policy</a
-            ><br />
-            <a href="#" class="footer_anchor_decoration">Privacy Policy</a><br />
-          </div>
-          <div class="col-12 col-md-4 text-center my-5">
-            <h4>Follow Us</h4>
-            <a href="#" target="_blank" class="footer_anchor_decoration"
-              ><i class="fab fa-facebook-square fa-2x fa-2x"></i></a>
-            <a href="#" target="_blank"  class="footer_anchor_decoration"
-              ><i class="fab fa-instagram-square fa-2x"></i
-            ></a>
-            <a href="#" target="_blank"  class="footer_anchor_decoration"
-              ><i class="fa fa-envelope-square fa-2x"></i
-            ></a>
-            <a href="#" target="_blank"  class="footer_anchor_decoration"
-              ><i class="fab fa-twitter-square fa-2x"></i
-            ></a>
-            <a href="#" target="_blank" class="footer_anchor_decoration"
-              ><i class="fab fa-youtube-square fa-2x"></i
-            ></a>
-          </div>
-        </div>
-        <div class="col-12 text-center"> 
-		<p>© 2019 Chhatralay. All rights reserved | Powered by <b></b>
-        <a href="https://www.chhatralay.in/"><b>(Chhatralay)</b></a>
-        </p>
-	     </div>
-      </div>
-    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

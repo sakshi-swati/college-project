@@ -146,7 +146,7 @@
                   href="chhatralay-hostel.php"
                   class="btn btn-primary "
                   style="color: black; font-weight: bold"
-                  >Book Hostel</a
+                  >Get at your comfort</a
                 >
               </div>
             </div>
@@ -155,22 +155,31 @@
 </center>
         
         <div class="col-12 col-lg-6">
-        <center>  <div class="card card_center shadow" style="width: 18rem; height: 44.5vh;">
+      
             
-            <div class="card-body">
-              <h2 class="card-title text-center">get hostel in your locality without searching and wasting your time</h2>
+           
+              <h2 >Get hostel in your locality without searching and wasting your time</h2>
+              <h4>Our Services</h4>
+               
+                  <li><i class="bx bx-chevron-right "></i> <a class="foo" href="#">Hostel At your place</a></li>
+                  <li><i class="bx bx-chevron-right "></i> <a class="foo" href="#">Hostel in your range</a></li>
+                  <li><i class="bx bx-chevron-right "></i> <a class="foo" href="#">Search from your home</a></li>
+                  <li><i class="bx bx-chevron-right "></i> <a class="foo" href="#">Contact to Hostel</a></li>
+                  <li><i class="bx bx-chevron-right "></i> <a class="foo" href="#">search anywhere </a></li>
+               
+              </div>
 
               <div class="text-center">
                 <a
-                  href=""
+                  href="Chhatralay-hostel.php"
                   class="btn gradient"
                   style="color: white; font-weight: bold"
-                  >smile</a
+                  >Search</a
                 >
               </div>
-            </div>
-          </div>
-        </div> </center>
+           
+          
+        </div> 
       </div>
     </div>
 	
@@ -331,55 +340,10 @@ include("register.html");
     </script>
   
 
-    <footer>
-      <div class="container-fluid my-5 bg-light p-5">
-        <div class="row" style=" background-color: #d8d8ea;">
-          <div class="col-12 text-center my-3">
-		  <!-- <a href="https://www.instamojo.com/@Apna Hostel_sn/" target="_blank"  class="footer_anchor_decoration">
-            <button class=" btn gradient" style="color: white; font-weight: bold" >Pay to Apna Hostel
-			 
-            </button>
-			</a> -->
-          </div>
-          <div class="col-12 col-md-4 text-center">
-            <h4>Quick Links</h4>
-            <a href="aboutus.php" class="footer_anchor_decoration">About us </a><br />
-            <a href="FAQ.php" class="footer_anchor_decoration">FAQ</a><br />
-            
-            <a href="#contactus" class="footer_anchor_decoration">Contact us</a><br />
-          </div>
-          <div class="col-12 col-md-4 text-center mt-5">
-            <a href="#" target="_blank"  class="footer_anchor_decoration">Pay To Chhatralay</a><br />
-            <a href="customer-polocy.php" class="footer_anchor_decoration">Customer Policy</a
-            ><br />
-            <a href="privacy_policy.html" class="footer_anchor_decoration">Privacy Policy</a><br />
-          </div>
-          <div class="col-12 col-md-4 text-center my-5">
-            <h4>Follow Us</h4>
-            <a href="#" target="_blank" class="footer_anchor_decoration"
-              ><i class="fab fa-facebook-square fa-2x fa-2x"></i></a>
-            <a href="#" target="_blank"  class="footer_anchor_decoration"
-              ><i class="fab fa-instagram-square fa-2x"></i
-            ></a>
-            <a href="#" target="_blank"  class="footer_anchor_decoration"
-              ><i class="fa fa-envelope-square fa-2x"></i
-            ></a>
-            <a href="#" target="_blank"  class="footer_anchor_decoration"
-              ><i class="fab fa-twitter-square fa-2x"></i
-            ></a>
-            <a href="#" target="_blank" class="footer_anchor_decoration"
-              ><i class="fab fa-youtube-square fa-2x"></i
-            ></a>
-          </div>
-          <div class="col-12 text-center"> 
-		<p>© 2019 Chhatralay. All rights reserved | Powered by <b>"Chhatralay Hospitality and Marketing"</b>
-        <a href="https://www.Chhatralay.in/"><b>(Chhatralay)</b></a>
-        </p>
-	     </div>
-        </div>
-        
-      </div>
-    </footer>
+  <div>
+  <?php include ("footer.php") ?>
+								</div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
