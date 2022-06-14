@@ -26,7 +26,7 @@
     rel="stylesheet">
 <!-- ======= Footer ======= -->
  <footer id="footer">
-        <div class="footer-top">
+        <div class="footer-top footer_base">
           <div class="container">
             <div class="row">
 
@@ -72,8 +72,8 @@
               </div>
 
               <div class="col-lg-4 col-md-6 footer-newsletter">
-                <h4 style="color:white">Our Newsletter</h4>
-                <p style="color:white">send your mail so that we can help you</p>
+                <h4 style="color:black">Our Newsletter</h4>
+                <p style="color:black">send your mail so that we can help you</p>
                 <form action="" method="post">
                   <input type="email" name="email"><input type="submit" value="Subscribe">
                 </form>

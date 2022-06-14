@@ -275,7 +275,7 @@ input[type=text], select, textarea {
 /*footer*/
 
 .footer_base{
-  background-color: #000;
+  background-color:black;
   display: flex;
   margin-top: 4vh;
  

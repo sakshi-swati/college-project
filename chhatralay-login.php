@@ -64,19 +64,21 @@ $("#txtId").focus();
       <br><br><br><br>
 <div class="row">
   <div class="col-sm-4"></div>
-  <div class="col-sm-4" style=" width:70%; background-color: #6fbbd3; margin:50px 220px; box shadow:20px,20px; opacity:0.8; ">
+  <div class="col-sm-4" style=" width:40%; background-color: black; d-flex; box shadow:20px,20px; opacity:0.7; ">
       <br><br>
     <center>
        
-         	<h2>User Login</h2>
+         	<h2 style="color:white; weight:strong;"> <b>User Login</b></h2>
     </center>
 
 		<div class="form-group">
-							   Enter Mobile Number *
+		<p style="color:white; weight:strong;"> <b>Enter Mobile Number *</b></p>
+							   
                                <input class="form-control" placeholder="Enter Mobile Number" name="txtId" id="txtId" type="text" />
                                 </div>
                                 <div class="form-group">
-                                    Enter Password *
+								<p style="color:white; weight:strong;"> <b> Enter Password *</b></p>
+                                   
                              <input class="form-control" placeholder="Enter Password" name="txtPassword" id="txtPassword" type="password" />
                                 </div>
                                 
@@ -84,7 +86,7 @@ $("#txtId").focus();
 								<center>
 								<button type="button" id="btnMemberLogin"  class="btn btn-lg btn-primary">LOGIN NOW</button>
 								</center>
-		<p>Not yet registered ?<a href="chhatralay-registration.php" style="color:#000"><br>Register</a></p>
+		<p style="color:white; weight:strong;"> <b>Not yet registered ?<a href="chhatralay-registration.php" style="color:white; weight:strong;"> <b><br>Register</a></p>
 		<br><br>
 			<!-- Note - All (*) marked fileds are required. -->
 </div>

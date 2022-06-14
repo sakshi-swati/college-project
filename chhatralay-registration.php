@@ -109,33 +109,35 @@ $('#txtCid').on('click', function() {
 </head>
 <body style="overflow: hidden;height=100%;">
 	
-<section class="data" style="background-image: url('regis_pic.jpg');padding:30px 30px; background-size:cover; height:110vh;width:100%">
+<section class="data" style="background-image: url('login_pic.jpg');padding:30px 30px; background-size:cover; height:110vh;width:100%">
 <br>
 <div class="row">
   <div class="col-sm-4">&nbsp;</div>
-  <div class="col-sm-4" style=" width:70%; background-color: #add8e6; margin:50px 220px; box shadow:20px,20px; opacity:0.9; ">
+  <div class="col-sm-4" style=" width:40%; background-color:black; d-flex box shadow:20px,20px; opacity:0.7; ">
       <br><br>
     <center>
         
-         	<h2>Register</h2>
+         	<h2 style="color:white; weight:strong;"> <b>Register</b></h2>
     </center>
 		                  <div class="form-group">
-							   Enter Sponser/Reference Mobile Number(If any)
+						  <p style="color:white; weight:strong;"> <b> Enter Sponser/Reference Mobile Number(If any)</b></p>
                                <input class="form-control" placeholder="Enter Reference Mobile" name="txtCid" id="txtCid" type="text" value="<?php echo $sponser; ?>" />
                                
                          </div>
                          <div id="txtSponserName" style="color:#000"></div>
                          <br>
                          <div class="form-group">
-							   Enter Name *
+							  <p style="color:white; weight:strong;"> <b> Enter Name *</b></p>
                                <input class="form-control" placeholder="Enter Name" name="txtName" id="txtName" type="text" />
                          </div>
                          <div class="form-group">
-							   Enter Mobile Number *
+						 <p style="color:white; weight:strong;"> <b>  Enter Mobile Number * </b></p>
+							  
                                <input class="form-control" placeholder="Enter Mobile" name="txtMobile" id="txtMobile" type="text" />
                          </div>
                          <div class="form-group">
-							   Password *
+						 <p style="color:white; weight:strong;"> <b>password *</b></p>
+							
                                <input class="form-control" placeholder="Enter Password" name="txtAadhar" id="txtAadhar" type="password" />
                          </div>
                                 
@@ -143,7 +145,7 @@ $('#txtCid').on('click', function() {
 								<center>
 								<button type="button" id="btnRegister"  class="btn btn-lg btn-primary">Register</button>
 								</center><br>
-		<p>Allready registered ?<a href="chhatralay-login.php" style="color:#000">Login</a>
+		<p style="color:white; weight:strong;">Allready registered ?<a href="chhatralay-login.php" style="color:white; weight:strong;">Login</a>
 		</p>
 			<!-- Note - All (*) marked fileds are required. -->
 </div>
