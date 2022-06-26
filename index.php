@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="card.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -107,26 +108,26 @@
         </ul>
       </div>
     </nav>
-    <section class="gradient my-5" style="margin-bottom:0%; background-image: url('img2.jpg'); background-size:cover; height:90vh; ">
+    <section class="gradient my-5" style="margin-bottom:0%; background-image: url('img2.jpg'); background-size:cover; height:80vh; ">
       <div class="container">
-        <div class="row text-center align-items-center" style="padding: 10%;">
+        <div class="row text-center align-items-center" style="padding: 20%;">
         
           <div class="domain ">
-            <h1 style="background: rgba(0, 0, 0, 0.5); font-size:10rem;font-weight:620;color:azure">Chhatralay</h1><br>
-            <p style="font-size: 4rem; color:beige;font-weight:600">We find Better!!!</p>
+            <h1 style="background: rgba(0, 0, 0, 0.5); font-size:7.5rem;font-weight:650;color:azure">Chhatralay</h1><br>
+            <p style="font-size: 3rem; color:beige;font-weight:590">We find Better!!!</p>
             
           </div>
         </div>
       </div>
     </section>
    
-	<div class="container-fluid bg-light">
+	<div class="container-fluid">
 	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 
     <div class="fluid-container service" style="margin-top:0;"; >
       <div class="col-12 text-center my-5">
-        <h1 class="title_border"><b>Our Services</b></h1>
+        <br><br><h1 class="title_border"><b>Our Services</b></h1>
       </div>
 
       <div class="row">
@@ -157,7 +158,7 @@
         <div class="col-12 col-lg-6">
       
             
-           
+              
               <h2 >Get hostel in your locality without searching and wasting your time</h2>
               <h4>Our Services</h4>
                
@@ -174,61 +175,128 @@
                   href="Chhatralay-hostel.php"
                   class="btn gradient"
                   style="color: white; font-weight: bold"
-                  >Search</a
-                >
+                  >Search</a> <br><br><br>
               </div>
            
           
         </div> 
       </div>
     </div>
-	
-
-    <div class="container">
-      <div class="row">
+    <section class="project"><a id="project"></a>
+      <div class="container-fluid bg-light">
         <div class="col-12 text-center my-5">
-          <h1><b>Our Facilities</b></h1>
-        </div>
-
-        <div class="col-6 col-md-3 text-center">
-          <i class="fas fa-lightbulb fa-5x my-2 my-2"></i>
-          <div><b>Electricity</b></div>
-        </div>
-        <div class="col-6 col-md-3 text-center text-center">
-          <i class="fas fa-shield-alt fa-5x my-2"></i>
-          <div><b>Security</b></div>
-        </div>
-        <div class="col-6 col-md-3 text-center">
-          <i class="fas fa-bread-slice fa-5x my-2"></i>
-          <div><b>Breakfast</b></div>
-        </div>
-
-        <div class="col-6 col-md-3 text-center">
-          <i class="fas fa-bed fa-5x my-2"></i>
-          <div><b>Spotless Linen</b></div>
-        </div>
+          <br><br><h1 class="title_border"><b>Best For You</b></h1>
+        </div><br>
+        <div class="card-wrapper" >
+          <div class="card middle">
+            <div class="front">
+              <img src="../college-project/hostel pic/2.jpg" alt="">
+              <h4>Vinayak Hostel</h4>
+            </div>
+            <div class="back">
+              <div class="back-content middle">
+                <h2>Vinayak Hostel</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card middle">
+            <div class="front">
+              <img src="../college-project/hostel pic/3.jpg" alt="">
+              <h4>Vinayak Hostel</h4>
+            </div>
+            <div class="back">
+              <div class="back-content middle">
+                <h2>Vinayak Hostel</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card middle">
+            <div class="front">
+              <img src="../college-project/hostel pic/5.jfif" alt="">
+              <h4>Vinayak Hostel</h4>
+            </div>
+            <div class="back">
+              <div class="back-content middle">
+                <h2>Vinayak Hostel</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card middle">
+            <div class="front">
+              <img src="../college-project/hostel pic/21.jfif" alt="">
+              <h4>Vinayak Hostel</h4>
+            </div>
+            <div class="back">
+              <div class="back-content middle">
+                <h2>Vinayak Hostel</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card middle">
+            <div class="front">
+              <img src="../college-project/hostel pic/8.jpg" alt="">
+              <h4>Vinayak Hostel</h4>
+            </div>
+            <div class="back">
+              <div class="back-content middle">
+                <h2>Vinayak Hostel</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card middle">
+            <div class="front">
+              <img src="../college-project/hostel pic/cont.jpg" alt="">
+              <h4>Vinayak Hostel</h4>
+            </div>
+            <div class="back">
+              <div class="back-content middle">
+                <h2>Vinayak Hostel</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card middle">
+            <div class="front">
+              <img src="../college-project/hostel pic/9.jpg" alt="">
+              <h4>Vinayak Hostel</h4>
+            </div>
+            <div class="back">
+              <div class="back-content middle">
+                <h2>Vinayak Hostel</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card middle">
+            <div class="front">
+              <img src="../college-project/hostel pic/pic 1.jpg" alt="">
+              <h4>Vinayak Hostel</h4>
+            </div>
+            <div class="back">
+              <div class="back-content middle">
+                <h2>Vinayak Hostel</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+        </div><br><br><br>
       </div>
+    </section>	
 
-      <div class="row my-5">
-        <div class="col-6 col-md-3 text-center">
-          <i class="fas fa-plug fa-5x my-2"></i>
-          <div><b>Power Supply</b></div>
-        </div>
-        <div class="col-6 col-md-3 text-center">
-          <i class="fas fa-pump-soap fa-5x my-2"></i>
-          <div><b>Regular Cleaning</b></div>
-        </div>
-        <div class="col-6 col-md-3 text-center">
-          <i class="fas fa-parking fa-5x my-2"></i>
-          <div><b>2 Wheeler Parking</b></div>
-        </div>
-
-        <div class="col-6 col-md-3 text-center">
-          <i class="fas fa-wifi fa-5x my-2"></i>
-          <div><b>Wifi</b></div>
-        </div>
-      </div>
-    </div>
+    
 
    
     <div>
@@ -240,7 +308,76 @@ include("register.html");
 
     <div class="slideshow-container">
       <div class="col-12 text-center">
-        <h1 class="pt-5"><b>What people have to say?</b></h1>
+        <h1 class="pt-5"><b>Our Happy Users</b></h1>
+      </div>
+
+      <div class="mySlides">
+        <img
+          src="testimonial.png"
+          style="
+            height: 150px;
+            width: 150px;
+            object-fit: contain;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+        />
+        <q>
+            I agree the best ebsite for hostels is definetly CHHATRALAY.
+                  </q>
+        <p class="author"><b>- Ravina Sehgal</b></p>
+      </div>
+
+      <div class="mySlides">
+        <img
+          src="testimonial.png"
+          style="
+            height: 150px;
+            width: 150px;
+            object-fit: contain;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+        />
+        <q
+          >
+              Have to say Chhatralay is the best accommodation finding app in the market.
+                  </q
+      
+         <p class="author"><b>- Advik Singhaniya</b></p>
+      </div>
+
+      <div class="mySlides">
+        <img
+          src="testimonial.png"
+          style="
+            height: 150px;
+            width: 150px;
+            object-fit: contain;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+        />
+        <q>
+           I must say to everyone who is looking to find the best hostels in different Cities.
+                  </q>
+        <p class="author"><b>- Sakshi Goyal</b> </p>
+      </div>
+      <div class="mySlides">
+        <img
+          src="testimonial.png"
+          style="
+            height: 150px;
+            width: 150px;
+            object-fit: contain;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+        />
+        <q>
+           I recommend Chhatralay to everyone who is looking to find the best hostels in different Cities.
+                  </q>
+        <p class="author"><b>- Aparna Supriya</b> </p>
       </div>
 
       <div class="mySlides">
@@ -257,43 +394,7 @@ include("register.html");
         <q>
         I was able to find very spacious and well-maintained service Hostel at a very affordable price using your service.
                   </q>
-        <p class="author"><b>- Anuj Agrawal</b></p>
-      </div>
-
-      <div class="mySlides">
-        <img
-          src="testimonial.png"
-          style="
-            height: 150px;
-            width: 150px;
-            object-fit: contain;
-            border-radius: 50%;
-            margin-right: 10px;
-          "
-        />
-        <q
-          >
-              Have to admit Chhatralay is the best accommodation finding app in the market.
-                  </q
-        >
-        <p class="author"><b>- Muskan Kumari</b></p>
-      </div>
-
-      <div class="mySlides">
-        <img
-          src="testimonial.png"
-          style="
-            height: 150px;
-            width: 150px;
-            object-fit: contain;
-            border-radius: 50%;
-            margin-right: 10px;
-          "
-        />
-        <q>
-           I recommend Chhatralay to everyone who is looking to find the best hostels in different Cities.
-                  </q>
-        <p class="author"><b>- Sakshi Goyal</b> </p>
+        <p class="author"><b>- Piyush Goyal</b> </p>
       </div>
 
       <a class="prev" onclick="plusSlides(-1)">❮</a>

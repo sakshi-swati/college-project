@@ -1,0 +1,89 @@
+/*===========Card=========*/
+
+
+  section.project .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 6rem;
+  
+  }
+  section.project .card-wrapper .card{
+    cursor: pointer;
+    text-align: center;
+    transition: all .5s ease;
+    width: 250px;
+    height: 350px;
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 2px 9px #ccc, 2px 2px 9px #000;
+  }
+  .middle{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+  }
+  /*
+  section.project .card-wrapper .card:hover{
+    background-color: #fff;
+    box-shadow: 0 0 5px aqua, 0 0 8px #fff;
+  }*/
+  
+  section.project .card-wrapper .card p{
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+  }
+  section.project .card-wrapper .card h4{
+    font-weight: bold;
+  }
+  section.project .card-wrapper .card .front,.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+  }
+  
+  section.project .card-wrapper .card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+    box-shadow: 5px 5px 10px #ccc, 5px 5px 10px #fff;
+  } 
+  section.project .card-wrapper .card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 5px 5px 6px #ccc, 5px 5px 6px #fff;
+  } 
+  section.project .card-wrapper .card .front img{
+    height: 90%;
+  }
+  section.project .card-wrapper .card  .front{
+    transform: perspective(600px) rotateY(0deg);
+  }
+  section.project .card-wrapper .card .back{
+    background: #fff;
+    transform: perspective(600px) rotateY(180deg);
+  }
+  section.project .card-wrapper .card .back-content{
+    text-align: center;
+    width: 100%;
+  }
+  @media screen and (max-width:1170px){
+    section.project .card-wrapper{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media screen and (max-width:800px){
+    section.project .card-wrapper{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width:600px) {
+    section.project .card-wrapper{
+      grid-template-columns: repeat(1, 1fr);
+   }
+  }
