@@ -186,11 +186,11 @@
       <div class="container-fluid bg-light">
         <div class="col-12 text-center my-5">
           <br><br><h1 class="title_border"><b>Best For You</b></h1>
-        </div><br>
+        </div><br> 
+                            
         <div class="card-wrapper" >
-          <div class="card middle">
-            <div class="front">
-            <?php 
+   
+          <?php 
                                 include "./conn.php";
 									
 									
@@ -200,8 +200,12 @@
                                     while($rs=mysqli_fetch_assoc($smt))
                                     {
                                         
-                                    ?>
-              <img src="../college-project/hostel pic/2.jpg" alt="">
+          ?>     <?php
+					$filename="dashboard/uploads/".$rs['img_url']; 
+					?>	
+          <div class="card middle ">
+            <div class="front">
+              <img src="<?php echo $filename;  ?>"  alt="">
               <h4><?php echo $rs['accid']."-".$rs['title'] ?></h4>
               
             </div>
@@ -211,33 +215,15 @@
                 <p class="card-text"><b>Near By</b> -<?php echo $rs['near_by'] ?></p>
 							  <p class="card-text"><b>Monthly Rent</b> -<?php echo $rs['monthly_rent'] ?></p>
 							  <p class="card-text"><b>Chhatralay Price</b> -<?php echo $rs['chhatralay_rent'] ?></p>
-							  <p class="card-text" style="color:#067c06"> <b><span style="color:#000">Availability</span>-<?php echo $rs['availability'] ?></b></p></p>
-              </div>
-            </div>
-          </div>
-          <div class="card middle">
-            <div class="front">
-              <img src="../college-project/hostel pic/2.jpg" alt="">
-              <h4><?php echo $rs['accid']."-".$rs['title'] ?></h4><?php }?>
-            </div>
-            <div class="back">
-              <div class="back-content middle">
-                <h2><?php echo $rs['accid']."-".$rs['title'] ?></h2>
-                <p class="card-text"><b>Near By</b> -<?php echo $rs['near_by'] ?></p>
-							  <p class="card-text"><b>Monthly Rent</b> -<?php echo $rs['monthly_rent'] ?></p>
-							  <p class="card-text"><b>Chhatralay Price</b> -<?php echo $rs['chhatralay_rent'] ?></p>
-							  <p class="card-text" style="color:#067c06"> <b><span style="color:#000">Availability</span>-<?php echo $rs['availability'] ?></b></p></p>
-              </div>
-            </div>
-          </div>
-         
-         
-         
-          </div>
-        </div><br><br><br>
-      </div>
-    </section>	
+							  <p class="card-text" style="color:#067c06"> <b><span style="color:#000">Availability</span>-<?php echo $rs['availability'] ?></b></p></p> 
 
+              </div>
+              </div> 
+            </div><?php } ?>
+          </div>
+        	
+      </div>
+    </section>
     
 
    
