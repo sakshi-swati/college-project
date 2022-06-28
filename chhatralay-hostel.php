@@ -197,10 +197,10 @@ $('#OtxtCoupon').on('input', function() {
    
     <!-- //register -->
     <!-- services -->
-	<section style="background-image: url('1.jpg');padding:30px 30px; background-size:cover; height:100vh;width:100%">
+	
     <div>
         <div class="container " style="padding-top: 15%; ">
-           </br></br>
+          
         <div class="container " >
 			<div>
            		<nav class="navbar bg-light"  >
@@ -266,9 +266,10 @@ $('#OtxtCoupon').on('input', function() {
   	</div>
 </nav>
 </div>
+							</section>
 <!--Results-->
         <div class="container "><br><br> 
-		<br> <br> <br>
+		
             <div class="title-wthree text-center">
                 <h2 class="agile-title  ">
                     Search Results

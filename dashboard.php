@@ -111,18 +111,18 @@ $(document).ready(function()
                 <span></span>
             </div>
             <div class="row" style="margin:20px">
-               <h2>Hostel Request</h2><br>
+               <h2>YOUR DETAIL</h2><br>
                <hr>
                <table border="1" width="100%">
-                   <tr style="background-color:#00f;color:#fff">
+                   <tr style="background-color:#fff;color:black">
                        <td>SL</td>
-                       <td>Order ID</td>
-                       <td>Order Date</td>
+                       <td>Booking ID</td>
+                       <td>Booking Date</td>
                        <td>Hostel ID</td>
                        <td>Name</td>
                        <td>Mobile</td>
-                       <td>Promocode</td>
-                       <td>Comment</td>
+                       
+                       
                    </tr>
                    	<?php 
                                     include "./conn.php";
@@ -140,8 +140,7 @@ $(document).ready(function()
                                          echo "<td>".$rs['accid']."</td>";
                                          echo "<td>".$rs['name']."</td>";
                                          echo "<td>".$rs['mobile']."</td>";
-                                         echo "<td>".$rs['promocode']."</td>";
-                                         echo "<td>".$rs['message']."</td>";
+                                        
                                       echo "</tr>";  
                                       $sl=$sl+1;
                                     }
@@ -151,9 +150,9 @@ $(document).ready(function()
                <br><br><br><br>
                
                <div>
-              <h4 style="color:#8b5c7e;margin-left:0px">Refer and Earn upto Rs. 500 /- : Get Your Referral Link</h4>
+              <h4 style="color:#8b5c7e;margin-left:0px">Refer and Earn upto Rs. 700/- : Get Your Referral Link</h4>
               Copy this link and share to others.Ask them to register @ chhatralay.
-              <div style="background-color:#DFE3EE;padding:10px;border-radius:5px"><a style="color:#00f" href="#<?php echo $cid?>" target="_blank" >http://www.zoyozo.in/zoyozo-registration.php?sponser=<?php echo $cid?></a></div>   
+              <div style="background-color:#DFE3EE;padding:10px;border-radius:5px"><a style="color:#00f" href="#<?php echo $cid?>" target="_blank" >http://www.Chhatralay.in/Chhatralay-registration.php?sponser=<?php echo $cid?></a></div>   
               
               <br>
               <h4 style="color:#8b5c7e;margin-left:0px">Referral Wallet</h4>
@@ -168,7 +167,7 @@ $(document).ready(function()
 				
             </div>
 			      <center>
-                   <a href="logout.php"><button type="button" class="btn btn-danger">Logout</button></a>
+                   <a href="logout.php"><button type="button" class="btn btn-primary">Logout</button></a>
                </center>      
         </div>
     </div>

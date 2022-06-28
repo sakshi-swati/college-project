@@ -190,107 +190,49 @@
         <div class="card-wrapper" >
           <div class="card middle">
             <div class="front">
+            <?php 
+                                include "./conn.php";
+									
+									
+                                    $sl=1;
+                                    $sql="select * from tbl_accomodation where availability IN('AVAILABLE','NOT AVAILABLE','FILLING FAST')  order by accid asc ";
+                                    $smt=mysqli_query($conn,$sql);
+                                    while($rs=mysqli_fetch_assoc($smt))
+                                    {
+                                        
+                                    ?>
               <img src="../college-project/hostel pic/2.jpg" alt="">
-              <h4>Vinayak Hostel</h4>
+              <h4><?php echo $rs['accid']."-".$rs['title'] ?></h4>
+              
             </div>
             <div class="back">
               <div class="back-content middle">
-                <h2>Vinayak Hostel</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h2><?php echo $rs['accid']."-".$rs['title'] ?>l</h2>
+                <p class="card-text"><b>Near By</b> -<?php echo $rs['near_by'] ?></p>
+							  <p class="card-text"><b>Monthly Rent</b> -<?php echo $rs['monthly_rent'] ?></p>
+							  <p class="card-text"><b>Chhatralay Price</b> -<?php echo $rs['chhatralay_rent'] ?></p>
+							  <p class="card-text" style="color:#067c06"> <b><span style="color:#000">Availability</span>-<?php echo $rs['availability'] ?></b></p></p>
               </div>
             </div>
           </div>
           <div class="card middle">
             <div class="front">
-              <img src="../college-project/hostel pic/3.jpg" alt="">
-              <h4>Vinayak Hostel</h4>
+              <img src="../college-project/hostel pic/2.jpg" alt="">
+              <h4><?php echo $rs['accid']."-".$rs['title'] ?></h4><?php }?>
             </div>
             <div class="back">
               <div class="back-content middle">
-                <h2>Vinayak Hostel</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h2><?php echo $rs['accid']."-".$rs['title'] ?></h2>
+                <p class="card-text"><b>Near By</b> -<?php echo $rs['near_by'] ?></p>
+							  <p class="card-text"><b>Monthly Rent</b> -<?php echo $rs['monthly_rent'] ?></p>
+							  <p class="card-text"><b>Chhatralay Price</b> -<?php echo $rs['chhatralay_rent'] ?></p>
+							  <p class="card-text" style="color:#067c06"> <b><span style="color:#000">Availability</span>-<?php echo $rs['availability'] ?></b></p></p>
               </div>
             </div>
           </div>
-          <div class="card middle">
-            <div class="front">
-              <img src="../college-project/hostel pic/5.jfif" alt="">
-              <h4>Vinayak Hostel</h4>
-            </div>
-            <div class="back">
-              <div class="back-content middle">
-                <h2>Vinayak Hostel</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-          </div>
-          <div class="card middle">
-            <div class="front">
-              <img src="../college-project/hostel pic/21.jfif" alt="">
-              <h4>Vinayak Hostel</h4>
-            </div>
-            <div class="back">
-              <div class="back-content middle">
-                <h2>Vinayak Hostel</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-          </div>
-          <div class="card middle">
-            <div class="front">
-              <img src="../college-project/hostel pic/8.jpg" alt="">
-              <h4>Vinayak Hostel</h4>
-            </div>
-            <div class="back">
-              <div class="back-content middle">
-                <h2>Vinayak Hostel</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-          </div>
-          <div class="card middle">
-            <div class="front">
-              <img src="../college-project/hostel pic/cont.jpg" alt="">
-              <h4>Vinayak Hostel</h4>
-            </div>
-            <div class="back">
-              <div class="back-content middle">
-                <h2>Vinayak Hostel</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-          </div>
-          <div class="card middle">
-            <div class="front">
-              <img src="../college-project/hostel pic/9.jpg" alt="">
-              <h4>Vinayak Hostel</h4>
-            </div>
-            <div class="back">
-              <div class="back-content middle">
-                <h2>Vinayak Hostel</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-          </div>
-          <div class="card middle">
-            <div class="front">
-              <img src="../college-project/hostel pic/pic 1.jpg" alt="">
-              <h4>Vinayak Hostel</h4>
-            </div>
-            <div class="back">
-              <div class="back-content middle">
-                <h2>Vinayak Hostel</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
+         
+         
+         
           </div>
         </div><br><br><br>
       </div>
