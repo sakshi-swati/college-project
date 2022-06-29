@@ -211,7 +211,7 @@
             </div>
             <div class="back">
               <div class="back-content middle">
-                <h2><?php echo $rs['accid']."-".$rs['title'] ?>l</h2>
+                <h2><?php echo $rs['accid']."-".$rs['title'] ?></h2>
                 <p class="card-text"><b>Near By</b> -<?php echo $rs['near_by'] ?></p>
 							  <p class="card-text"><b>Monthly Rent</b> -<?php echo $rs['monthly_rent'] ?></p>
 							  <p class="card-text"><b>Chhatralay Price</b> -<?php echo $rs['chhatralay_rent'] ?></p>
